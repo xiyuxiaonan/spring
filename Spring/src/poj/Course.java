@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component("Course")
-public class Course {// ¸üĞÂ2
+public class Course {// æˆ‘çš„æ›´æ–°
 	private String name;
 	@Autowired
-	private Teacher teacher;// ÒÀÀµÓÚteacherÀà,ÕâÀïµÄteacher¼´ÎªidÖµ
+	private Teacher teacher;// ä¾èµ–äºteacherç±»,è¿™é‡Œçš„teacherå³ä¸ºidå€¼
 
 	public String getName() {
 		return name;

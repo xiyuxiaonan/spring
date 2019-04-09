@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component("Course")
-public class Course {
+public class Course {// 更新
 	private String name;
 	@Autowired
 	private Teacher teacher;// 依赖于teacher类,这里的teacher即为id值

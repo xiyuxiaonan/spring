@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Course {// 我的更新
 	private String name;
 	@Autowired
-	private Teacher teacher;// 依赖于teacher类,这里的teacher即为id值
+	private Teacher teacher;// 依赖于teacher类,这里的teacher即为id
 
 	public String getName() {
 		return name;
